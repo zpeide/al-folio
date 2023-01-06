@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - zpeide
+  - peide
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - zpeide/transfer_qg
+  - zpeide/Answer-Quality-Aware-Aggregation
