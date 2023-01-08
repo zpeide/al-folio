@@ -49,6 +49,22 @@
   year      = {2022}
 }
 
+@inproceedings{zhu-hauff-2022-unsupervised,
+    title = "Unsupervised Domain Adaptation for Question Generation with {D}omain{D}ata Selection and Self-training",
+    author = "Zhu, Peide  and
+      Hauff, Claudia",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.183",
+    doi = "10.18653/v1/2022.findings-naacl.183",
+    pages = "2388--2401",
+    abbr={EMNLP},
+    abstract = "Question generation (QG) approaches based on large neural models require (i) large-scale and (ii) high-quality training data. These two requirements pose difficulties for specific application domains where training data is expensive and difficult to obtain. The trained QG models{'} effectiveness can degrade significantly when they are applied on a different domain due to domain shift. In this paper, we explore an \textit{unsupervised domain adaptation} approach to combat the lack of training data and domain shift issue with domain data selection and self-training. We first present a novel answer-aware strategy for domain data selection to select data with the most similarity to a new domain. The selected data are then used as pseudo-in-domain data to retrain the QG model. We then present generation confidence guided self-training with two generation confidence modeling methods (i) generated questions{'} perplexity and (ii) the fluency score. We test our approaches on three large public datasets with different domain similarities, using a transformer-based pre-trained QG model. The results show that our proposed approaches outperform the baselines, and show the viability of unsupervised domain adaptation with answer-aware data selection and self-training on the QG task.",
+}
+
 @inproceedings{hou2019signspeaker,
   title     = {Signspeaker: A real-time, high-precision smartwatch-based sign language translator},
   author    = {Hou, Jiahui and Li, Xiang-Yang and Zhu, Peide and Wang, Zefan and Wang, Yu and Qian, Jianwei and Yang, Panlong},
