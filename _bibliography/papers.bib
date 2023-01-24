@@ -49,21 +49,20 @@
   year      = {2022}
 }
 
-@inproceedings{zhu-hauff-2022-unsupervised,
-    title = "Unsupervised Domain Adaptation for Question Generation with {D}omain{D}ata Selection and Self-training",
-    author = "Zhu, Peide  and
-      Hauff, Claudia",
-    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
-    month = jul,
+@inproceedings{zhu-hauff-2022-AnswerQuality,
+    title = " Answer Quality Aware Aggregation for Extractive QA Crowdsourcing",
+    author = "Zhu, Peide and Wang, Zhen and Hauff, Claudia and Yang, Jie  and Anand, Avishek",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = December,
     year = "2022",
-    address = "Seattle, United States",
+    address = "Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.findings-naacl.183",
+    url = "https://preview.aclanthology.org/emnlp-22-ingestion/2022.findings-emnlp.457/",
     doi = "10.18653/v1/2022.findings-naacl.183",
-    pages = "2388--2401",
+    pages = "",
     abbr={EMNLP},
     selected=true,
-    abstract = "Question generation (QG) approaches based on large neural models require (i) large-scale and (ii) high-quality training data. These two requirements pose difficulties for specific application domains where training data is expensive and difficult to obtain. The trained QG models{'} effectiveness can degrade significantly when they are applied on a different domain due to domain shift. In this paper, we explore an \textit{unsupervised domain adaptation} approach to combat the lack of training data and domain shift issue with domain data selection and self-training. We first present a novel answer-aware strategy for domain data selection to select data with the most similarity to a new domain. The selected data are then used as pseudo-in-domain data to retrain the QG model. We then present generation confidence guided self-training with two generation confidence modeling methods (i) generated questions{'} perplexity and (ii) the fluency score. We test our approaches on three large public datasets with different domain similarities, using a transformer-based pre-trained QG model. The results show that our proposed approaches outperform the baselines, and show the viability of unsupervised domain adaptation with answer-aware data selection and self-training on the QG task.",
+    abstract = "Quality control is essential for creating extractive question answering (EQA) datasets via crowdsourcing. Aggregation across answers, i.e. word spans within passages annotated, by different crowd workers is one major focus for ensuring its quality. However, crowd workers cannot reach a consensus on a considerable portion of questions. We introduce a simple yet effective answer aggregation method that takes into account the relations among the answer, question, and context passage. We evaluate answer quality from both the view of question answering model to determine how confident the QA model is about each answer and the view of the answer verification model to determine whether the answer is correct. Then we compute aggregation scores with each answer’s quality and its contextual embedding produced by pre-trained language models. The experiments on a large real crowdsourced EQA dataset show that our framework outperforms baselines by around 16% on precision and effectively conduct answer aggregation for extractive QA task.",
 }
 
 @inproceedings{hou2019signspeaker,
